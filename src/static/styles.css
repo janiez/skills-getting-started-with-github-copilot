@@ -166,7 +166,21 @@ footer {
   margin-bottom: 6px;
   font-size: 14px;
   color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.delete-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #c62828;
+  font-size: 16px;
+}
+
+.delete-icon:hover {
+  opacity: 0.85;
+} 
 
 .participants-list li.empty {
   font-style: italic;
